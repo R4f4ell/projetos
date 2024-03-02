@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/imagens/img-login/icons8-old-vmware-logo-50.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/template-login02.css">
+    <link rel="stylesheet" href="/css/template-login02.scss">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/imagens/img-login/icons8-old-vmware-logo-50.png" alt="Logotipo">
+        </div>
+        <div class="link">
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Experience</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="icones">
+            <img src="/imagens/img-login/icons8-instagram-32.png" alt="Instagram">
+            <img src="/imagens/img-login/icons8-github-32.png" alt="Github">
+            <img src="/imagens/img-login/icons8-tiktok-30.png" alt="Tiktok">
+            <img src="/imagens/img-login/icons8-reproduzir-youtube-50.png" alt="YouTube">
+        </div>
+    </header>
+
+    <main>
+        <div class="tamanho">
+            <div class="ocupacao-form">
+                <p class="titulo">Login Form</p>
+                <form action="form.php" method="post" autocomplete="on">
+                    <div class="nome">
+                            <p><label for="iname">Username</label></p>
+
+                            <div><input type="text" name="name" id="iname" required maxlength="30"></div>
+
+                    <div class="senha">
+                            <p><label for="isenha">Password</label></p>
+
+                            <div><input type="password" name="password" id="isenha" min="8" max="15" required></div>
+
+                    </div>
+                    <div class="login"><input type="submit" value="Login"></div>
+                    <p class="esqueceusenha">
+                        Don't have  an account? <a href="#">Signup</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
